@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="bid" class="beans.autowire.byname.Categories" autowire="constructor">
+	<property name="name" value="Easy English"></property>	
+	</bean>
+	<bean id="bk" class="beans.autowire.byname.Book">
+	<property name="bookname" value="general book"></property>	
+	<property name="price" value="2330"></property>	
+	</bean>
+</beans>
